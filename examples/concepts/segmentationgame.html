@@ -53,7 +53,7 @@
     <div id="login" class='login' style="color:grey; font-size:10px;">
       Please enter your name: &nbsp
       <input type="text" id='username'>
-      <input type="submit" onclick="closeLogin()">
+      <input type="submit" onclick="closeLogin()" >
     </div>
   </div>
 </div>
@@ -316,7 +316,7 @@ myElement.addEventListener('cornerstoneimagerendered', handleImageRendered)
 </section>
 
 <script>
-  const baseUrl = "http://localhost:8080/examples/";
+  const baseUrl = "/examples/";
     // window.ENVIRONMENT === 'development'
     //   ? 'http://localhost:4000/'
     //   : 'https://tools.cornerstonejs.org/examples/';
